@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Viewport Meta Tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    联系我们_润妮秀_润妮秀官网_润妮秀化妆品_润妮秀化妆品怎么样
+  </title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/bootstrap.min.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/main.css">
+  <!-- Slicknav Css -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/slicknav.css">
+
+  <!-- Responsive Style -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/responsive.css">
+
+  <!-- Extras -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/animate.css">
+
+  <link href="{dede:global.cfg_templets_skin/}/style/mislider.css" rel="stylesheet">
+  <link href="{dede:global.cfg_templets_skin/}/style/mislider-skin-cameo.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/normalize.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/icons/entypo.css">
+
+
+
+  <!-- Color CSS Styles  -->
+  <link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/colors/blue.css" media="screen" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+    </script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+    </script>
+    <![endif]-->
+  <style>
+    /*main css*/
+    .main-im {
+      position: fixed;
+      right: 10px;
+      top: 350px;
+      z-index: 100;
+      width: 110px;
+      height: 272px;
+    }
+
+    .main-im .qq-a {
+      display: block;
+      width: 106px;
+      height: 116px;
+      font-size: 14px;
+      color: #3b8ced;
+      text-align: center;
+      position: relative;
+    }
+
+    .main-im .qq-a span {
+      bottom: 5px;
+      position: absolute;
+      width: 90px;
+      left: 10px;
+    }
+
+    .main-im .qq-hover-c {
+      width: 70px;
+      height: 70px;
+      border-radius: 35px;
+      position: absolute;
+      left: 18px;
+      top: 10px;
+      overflow: hidden;
+      z-index: 9;
+    }
+
+    .main-im .qq-container {
+      z-index: 99;
+      position: absolute;
+      width: 109px;
+      height: 118px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom: 1px solid #dddddd;
+      background: url(../images/qq-icon-bg.png) no-repeat center 8px;
+    }
+
+    .main-im .img-qq {
+      max-width: 60px;
+      display: block;
+      position: absolute;
+      left: 6px;
+      top: 3px;
+      -moz-transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+
+    .main-im .im-qq:hover .img-qq {
+      max-width: 70px;
+      left: 1px;
+      top: 8px;
+      position: absolute;
+    }
+
+    .main-im .im_main {
+      background: #F9FAFB;
+      border: 1px solid #dddddd;
+      border-radius: 10px;
+      background: #F9FAFB;
+      display: block;
+    }
+
+    .main-im .im_main .im-tel {
+      color: #000000;
+      text-align: center;
+      width: 109px;
+      height: 180px;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .main-im .im_main .im-tel div {
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+
+    .main-im .im_main .im-tel .tel-num {
+      font-family: Arial;
+      font-weight: bold;
+      color: #e66d15;
+    }
+
+    .main-im .im_main .im-tel:hover {
+      background: #fafafa;
+    }
+
+    .main-im .im_main .liuyan-container {
+      width: 55px;
+      height: 47px;
+      border-right: 1px solid #dddddd;
+      background: #f5f5f5;
+      border-bottom-left-radius: 10px;
+      background: url(../templets/default/images/liuyan.png) no-repeat center center;
+      float: left;
+    }
+
+    .main-im .im_main .go-top {
+      width: 50px;
+      height: 47px;
+      background: #f5f5f5;
+      border-bottom-right-radius: 10px;
+      background: url(../templets/default/images/toTop-icon.png) no-repeat center center;
+      float: right;
+    }
+
+    .main-im .im_main .go-top a {
+      display: block;
+      width: 52px;
+      height: 47px;
+    }
+
+    .main-im .close-im {
+      position: absolute;
+      right: 10px;
+      top: -12px;
+      z-index: 100;
+      width: 24px;
+      height: 24px;
+    }
+
+    .main-im .close-im a {
+      display: block;
+      width: 24px;
+      height: 24px;
+      background: url(../images/close_im.png) no-repeat left top;
+    }
+
+    .main-im .close-im a:hover {
+      text-decoration: none;
+    }
+
+    .main-im .open-im {
+      cursor: pointer;
+      margin-left: 68px;
+      width: 40px;
+      height: 133px;
+      background: url(../images/open_im.png) no-repeat left top;
+      display: none;
+    }
+
+    .liuyan {
+      margin-top: 100px;
+      width: 580px;
+      height: 700px;
+    }
+
+    .liuyan p {
+      text-shadow: 0 1px 0 #fff;
+      font-size: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header area wrapper starts -->
+  <header id="header-wrap">
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar nav-bg">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="http://www.renecellem.com">
+              <img src="{dede:global.cfg_templets_skin/}/images/logo.jpg" style="height: 60px;" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+              aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item wow bounceInRight animated" data-wow-delay=".2s">
+                <a class="nav-link" href="http://www.renecellem.com">首页 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown wow bounceInRight animated" data-wow-delay=".4s">
+                <a class="nav-link dropdown-toggle" onclick="window.location.href='/product'" href="" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">产品展示</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="/product/jiaocheng">使用教程</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown wow bounceInRight animated" data-wow-delay=".6s">
+                <a class="nav-link dropdown-toggle" onclick="window.location.href='/case'" href="" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">客户案例</a>
+              </li>
+              <li class="nav-item dropdown wow bounceInRight animated" data-wow-delay=".8s">
+                <a class="nav-link dropdown-toggle" onclick="window.location.href='/news'" href="" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">品牌资讯</a>
+              </li>
+              <li class="nav-item dropdown wow bounceInRight animated" data-wow-delay="1.0s">
+                <a class="nav-link dropdown-toggle" onclick="window.location.href='/about'" href="" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">关于我们</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/about/certificate">产品证书</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown active wow bounceInRight animated" data-wow-delay="1.2s">
+                <a class="nav-link active dropdown-toggle" onclick="window.location.href='/contact'" href="" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">联系我们</a>
+              </li>
+            </ul>
+          </div>
+    
+          <!-- Mobile Menu Start -->
+          <ul class="wpb-mobile-menu">
+            <li>
+              <a class="active" href="http://www.renecellem.com">首页</a>
+            </li>
+            <li>
+              <a href="http://www.renecellem.com/product">产品展示</a>
+              <ul>
+                <li><a href="/product/jiaocheng">使用教程</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="http://www.renecellem.com/case">客户案例</a>
+            </li>
+            <li>
+              <a href="http://www.renecellem.com/news">品牌资讯</a>
+            </li>
+            <li>
+              <a href="http://www.renecellem.com/about">关于我们</a>
+              <ul>
+                <li><a href="/about/certificate">产品证书</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="http://www.renecellem.com/contact">联系我们</a>
+            </li>
+          </ul>
+          <!-- Mobile Menu End -->
+        </div>
+      </nav>
+
+  </header>
+  <!-- Header-wrap Section End -->
+  <div class="page-header-section">
+    <div class="container">
+      <div class="row">
+        <div class="page-header-area">
+          <div class="page-header-content">
+            <h2>联系我们</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+
+  <section class="contact2-section section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="section-title text-left">联系我们</h1>
+          <p class="section-subcontent mb-30 text-left">留下您的联系方式<br> 我们会解答您所有的疑惑</p>
+          <form method="post" role="form" class="mt-30 shake" id="contactForm" name="contact-form"
+            data-toggle="validator">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name" class="sr-only">姓名</label>
+                  <input type="text" placeholder="姓名" id="name" class="form-control contact-control" name="name"
+                    required data-error="请输入你的姓名">
+                  <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="sr-only">手机号</label>
+                  <input type="email" placeholder="手机号" id="email" class="form-control contact-control" name="email"
+                    required data-error="请输入你的手机号">
+                  <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="sr-only">邮箱</label>
+                  <input type="text" placeholder="邮箱" id="msg_subject" class="form-control contact-control"
+                    name="subject" required data-error="请输入你的邮箱">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="message" class="sr-only">Message</label>
+                  <textarea placeholder="你的留言..." rows="10" id="message" class="form-control" name="message" required
+                    data-error="请输入你的问题"></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group col-xs-12">
+              <button class="btn btn-common btn-lg btn-block" name="submit" id="form-submit" type="submit"><i
+                  class="fa fa-envelope"></i> 提交</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-4 clearfix">
+          <div id="google-map-contact2"></div>
+          <div class="contact-info2 mt-30">
+            <h2 class="small-title">联系方式</h2>
+            <ul class="contact-info2">
+              <li>
+                <p><strong><i class="fa fa-map-marker"></i> 姓名:</strong>二毛</p>
+              </li>
+              <li>
+                <p><strong><i class="fa fa-envelope"></i>电话:</strong>1111</p>
+              </li>
+              <li>
+                <p><strong><i class="fa fa-phone"></i> QQ:</strong> 1111</p>
+              </li>
+              <li>
+                <p><strong><i class="fa fa-print"></i> 微信号:</strong>11111 </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section Ends -->
+
+  {dede:include filename="footer.htm"/}
+</body>
+
+</html>
